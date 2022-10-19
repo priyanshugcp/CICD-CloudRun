@@ -5,10 +5,15 @@ Deploying Flask Application on Cloud Run using CI-CD Pipeline
 2. Next step, Add code to your repository by following below commands on CloudShell.
 
     a) gcloud init
+    
     b) gcloud source repos clone REPO_NAME --project=PROJECT_ID
+    
     c) cd REPO_NAME
+    
     d) git add -A
+    
     e) git commit -m "SOME_MESSAGE"
+    
     f) git push -u origin master
 
 3. Enable Artifact Registry API and create a repository of format Docker which will stores your docker images.
